@@ -1,27 +1,84 @@
-# biblioteca-virtual
+# Biblioteca Virtual - CRUD en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+Este proyecto fue desarrollado como parte del curso de **Interfaces II** en la carrera de Desarrollo de Software en **IDAT**. La aplicación consiste en un CRUD (Crear, Leer, Actualizar y Eliminar) para la gestión de libros y autores de una biblioteca virtual. Está construido utilizando **Angular** y su enfoque principal es gestionar información de manera eficiente mediante formularios y validaciones.
 
-## Development server
+## Tabla de Contenidos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. [Descripción General](#descripción-general)
+2. [Características](#características)
+3. [Tecnologías Utilizadas](#tecnologías-utilizadas)
+4. [Requisitos Previos](#requisitos-previos)
+5. [Instalación](#instalación)
+6. [Uso](#uso)
+7. [Capturas de Pantalla](#capturas-de-pantalla)
+8. [Autor](#autor)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Descripción General
 
-## Build
+El sistema de biblioteca virtual permite:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Gestionar libros (crear, listar, editar y eliminar).
+- Gestionar autores (crear y eliminar).
+- Realizar validaciones de datos para evitar inconsistencias.
 
-## Running unit tests
+La interfaz incluye:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Formularios dinámicos con validaciones.
+- Listados interactivos con botones de acción (editar y eliminar).
+- Modales para confirmaciones y advertencias.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Características
 
-## Further help
+- **Gestión de Libros:**
+  - Agregar nuevos libros con datos como título, descripción, fecha de publicación, autor y enlace al archivo PDF.
+  - Editar libros existentes.
+  - Eliminar libros con confirmación previa.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Gestión de Autores:**
+  - Agregar nuevos autores con nombre y nacionalidad.
+  - Eliminar autores.
+
+- **Validaciones de Formularios:**
+  - Los campos obligatorios se verifican antes de procesar los datos.
+  - La URL del PDF debe ser válida (debe iniciar con "https://" y terminar con ".pdf").
+
+---
+
+## Tecnologías Utilizadas
+
+- **Angular:** Framework para construir la aplicación.
+- **Bootstrap:** Diseño responsivo y estético.
+- **TypeScript:** Lenguaje para escribir código más estructurado y robusto.
+- **HTML/CSS:** Desarrollo de la interfaz de usuario.
+
+---
+
+## Requisitos Previos
+
+- Node.js instalado en el sistema.
+- Angular CLI instalado globalmente (`npm install -g @angular/cli`).
+
+---
+
+## Instalación
+
+# Clona este repositorio:
+git clone https://github.com/tu_usuario/biblioteca-virtual.git
+
+# Accede al directorio del proyecto:
+cd biblioteca-virtual
+
+# Instala las dependencias:
+npm install 
+
+# Inicia el servidor de desarrollo:
+ng serve
+
+# Abre tu navegador y accede a:
+http://localhost:4200
+
+
