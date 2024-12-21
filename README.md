@@ -66,19 +66,19 @@ La interfaz incluye:
 
 ## Instalación
 
-# Clona este repositorio:
+**- Clona este repositorio:**
 git clone https://github.com/tu_usuario/biblioteca-virtual.git
 
-# Accede al directorio del proyecto:
+**- Accede al directorio del proyecto:**
 cd biblioteca-virtual
 
-# Instala las dependencias:
+**- Instala las dependencias:**
 npm install 
 
-# Inicia el servidor de desarrollo:
+**- Inicia el servidor de desarrollo:**
 ng serve
 
-# Abre tu navegador y accede a:
+**- Abre tu navegador y accede a:**
 http://localhost:4200
 
 
