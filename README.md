@@ -81,4 +81,6 @@ ng serve
 **- Abre tu navegador y accede a:**
 http://localhost:4200
 
+## Autor
 
+Este proyecto fue desarrollado por Liz Karol Vergara como parte del aprendizaje en la carrera de Desarrollo de Software en IDAT.
